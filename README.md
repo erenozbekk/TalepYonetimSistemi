@@ -61,20 +61,6 @@ bölümüne bakın.
 > değildir; tablolar Oracle üzerinde elle uygulanmıştır. Şemayı sıfırdan kurmanız gerekirse
 > MIMARI.md'deki kolon tanımlarını temel alın.
 
-### Bağlantı Yapılandırması
-
-Bağlantı bilgileri [`src/main/resources/application.properties`](src/main/resources/application.properties)
-içindedir:
-
-```properties
-spring.datasource.url=jdbc:oracle:thin:@192.168.10.2:1521:orcl?oracle.jdbc.defaultNChar=true
-spring.datasource.username=stajdemo
-spring.datasource.password=stajdemo
-spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
-spring.datasource.hikari.connection-init-sql=ALTER SESSION SET NLS_LANGUAGE='TURKISH' NLS_TERRITORY='TURKEY'
-```
-
-Kendi veritabanınızı kullanacaksanız `url`, `username`, `password` alanlarını güncelleyin.
 
 ---
 
