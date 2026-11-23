@@ -30,7 +30,7 @@ mesajlaşma**, **ekip içi notlar**, **geri gönderme** ve **canlı bildirim** �
 ## Gereksinimler
 
 - **JDK 25** (veya uyumlu bir sürüm)
-- **Oracle Database** erişimi (mevcut yapılandırma: `192.168.10.2:1521:orcl`)
+- **Oracle Database** erişimi 
 - İnternet (ilk derlemede Maven ve Vaadin frontend bağımlılıkları indirilir)
 - Maven kurmaya gerek yok — depo içindeki `mvnw`/`mvnw.cmd` sarmalayıcısı kullanılır
 
